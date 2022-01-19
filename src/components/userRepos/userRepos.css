@@ -1,0 +1,33 @@
+.repo-item {
+    margin: 10px 5px;
+    width: 48%;
+    border: 1px solid rgb(199, 197, 197);
+    border-radius: 15px;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div + div {
+    margin-top: 5px;
+}
+
+.repo-item__name {
+    font-size: 17px;
+}
+
+.repo-item__descr {
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.repo-item__language {
+    color: red;
+}
+
+.repo-item__updated {
+    font-size: 14px;
+    color: #313dcd; 
+}

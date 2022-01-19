@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+.inner {
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.user-list {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+button:disabled {
+    color: red;
+}
