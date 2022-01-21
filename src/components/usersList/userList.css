@@ -1,24 +1,26 @@
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 .inner {
-    min-height: 650px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  padding: 0 10px;
+  min-height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .user-list {
-    margin-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .buttons {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
 }
 button:disabled {
-    color: red;
+  color: red;
 }

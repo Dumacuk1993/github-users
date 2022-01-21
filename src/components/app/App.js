@@ -1,8 +1,7 @@
-
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import UserCard from '../userCard/UserCard';
-import UserList from '../usersList/UserList';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import UserCard from "../UserCard/UserCard";
+import UserList from "../UsersList/UserList";
+import "./App.css";
 
 function App() {
   return (
@@ -12,7 +11,7 @@ function App() {
           <Route path="/" element={<UserList />}></Route>
           <Route path="/:userLogin" element={<UserCard />}></Route>
           <Route path="*" element={<UserList />}></Route>
-        </Routes>        
+        </Routes>
       </div>
     </Router>
   );
